@@ -6,7 +6,7 @@ class TestMinStack(unittest.TestCase):
     def setUp(self):
         self.min_stack = MinStack()
 
-    def test_minStack(self):
+    def test_min_stack(self):
         self.min_stack.push(1)
         self.min_stack.push(2)
         self.min_stack.push(0)
